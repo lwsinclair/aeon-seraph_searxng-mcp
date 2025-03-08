@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "bin": {
+    "searxng-mcp": "build/index.js"
+  },
+  "name": "searxng-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && node --input-type=module -e \"import { promises as fs } from 'fs'; await fs.chmod('build/index.js', '755');\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "aeon-seraph",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.1",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  }
+}
