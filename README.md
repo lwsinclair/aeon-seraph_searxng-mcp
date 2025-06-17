@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/mcp-mirror-aeon-seraph-searxng-mcp-badge.png)](https://mseep.ai/app/mcp-mirror-aeon-seraph-searxng-mcp)
+
 # SearXNG Model Context Protocol Server
 
 A Model Context Protocol (MCP) server for interfacing language models with SearXNG search engine.
